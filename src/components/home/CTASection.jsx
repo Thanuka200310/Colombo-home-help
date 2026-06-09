@@ -14,7 +14,7 @@ export default function CTASection() {
         <div className="mt-8 flex justify-center gap-4">
           <Link
             to="/booking"
-            className="rounded-2xl bg-white px-6 py-3 font-semibold text-sky-700"
+            className="rounded-2xl border border-white/40 px-6 py-3 font-semibold text-white"
           >
             Request Service
           </Link>
