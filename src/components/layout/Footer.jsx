@@ -36,7 +36,7 @@ export default function Footer() {
         <div className="reveal reveal-delay-2">
           <p className="font-semibold text-white">Contact</p>
           <ul className="mt-3 space-y-2 text-sm text-slate-400">
-            <li>Phone: +94 77 123 4567</li>
+            <li>Phone: +94 76 196 5333</li>
             <li>Email: support@colombohomehelp.lk</li>
             <li>Colombo, Sri Lanka</li>
           </ul>

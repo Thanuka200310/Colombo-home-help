@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function CTASection() {
   return (
-    <section className="bg-sky-700 py-16 text-white">
+    <section className="bg-gradient-to-r from-blue-900 via-sky-700 to-cyan-600 py-16 text-white">
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-10">
         <h2 className="text-3xl font-bold md:text-4xl">
           Need help with a house issue today?
@@ -14,13 +14,13 @@ export default function CTASection() {
         <div className="mt-8 flex justify-center gap-4">
           <Link
             to="/booking"
-            className="rounded-2xl border border-white/40 px-6 py-3 font-semibold text-white"
+            className="rounded-2xl bg-sky-700 px-6 py-3 font-semibold text-white transition hover:bg-blue-800"
           >
             Request Service
           </Link>
           <Link
             to="/contact"
-            className="rounded-2xl border border-white/40 px-6 py-3 font-semibold text-white"
+            className="rounded-2xl bg-sky-700 px-6 py-3 font-semibold text-white transition hover:bg-blue-800"
           >
             Contact Us
           </Link>

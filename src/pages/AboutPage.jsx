@@ -1,3 +1,5 @@
+import ReviewsPreview from "../components/shared/ReviewsPreview";
+
 export default function AboutPage() {
   return (
     <section className="mx-auto max-w-5xl px-6 py-16 lg:px-10">
@@ -16,6 +18,7 @@ export default function AboutPage() {
           simple booking process with practical solutions for every type of house issue.
         </p>
       </div>
+      <ReviewsPreview />
     </section>
   );
 }

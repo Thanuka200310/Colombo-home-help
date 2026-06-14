@@ -12,7 +12,7 @@ function StatCard({ label, value }) {
 
 export default function HeroSection() {
   return (
-    <section className="bg-gradient-to-br from-sky-700 via-cyan-600 to-emerald-500 text-white">
+    <section className="bg-gradient-to-br from-slate-950 via-blue-900 to-cyan-600 text-white">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-20 lg:grid-cols-2 lg:px-10">
         <div className="reveal">
           <span className="inline-block rounded-full bg-white/15 px-4 py-1 text-sm font-medium">
